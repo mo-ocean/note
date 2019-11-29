@@ -1,6 +1,6 @@
 1. 桌面上新建一个txt文本文档。然后将以下代码复制到这个新建的txt文本文档中
 
-```
+```bash
 @echo off
 pushd "%~dp0"
 dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum >List.txt
@@ -10,5 +10,3 @@ pause
 ```
 
 2. 修改其后缀.txt变成.cmd,以管理员身份运行
-
-
